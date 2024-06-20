@@ -14,7 +14,7 @@ VARIABLE:-
 -Let is a block scope code so we have been using let for most of the cases.
 
 2.var:-
--Var is a variable which is also used for changing the variable later stage.
+-Var is a type of variable which is also used for changing the variable later stage.
 -Var is used in browser so now a days we are don't use var most of the time.
 -
 3.const:-
@@ -24,4 +24,53 @@ VARIABLE:-
 TASK-
 1.DIFF btwn let and var.
 2.Diff btwn var & const.
-3.What do you mean by haisting(when we donn't declsre value of variable but it execute the code).
+3.What do you mean by haisting(when we donn't decla.re value of variable but it execute the code).
+
+RULES OF VARIABLE:-
+-Variable names are case sensative "a" & "A" is different.
+-Only letter ,digit,underscore & $ are allowed(not even space).
+-only letter ,underscore or $ should be 1st character.
+-Reserve words cannot be variable names.
+
+DATA TYPES IN JAVASCRIPT:-
+-Data type is a attribute associated with a piece of data that tells acomputer system how to interprets its value.
+-Mainly in js their are 2 types of data type-
+1.primitive:-
+ -In js there are 7 types of primitive data type.
+ 1.Number:-number are the type of data  type those it contain some numerical value.
+ 2.String:-string is a type of data type that can hold some characterlike names....
+ 3.Boolean:-Inboolean data type we get Boolean value like true,false.
+ 4.Undefined:-IN undefined data type the data is not define so that it will show undefined.
+ 5.Null:-In this data type we get null for the value means nothing.
+ 6.Bigint:-In Bigint we will get big integer.
+ 7.Symbol:-In Symbol we get whole symbol as well as the value we get for the data type.
+
+2.Non-primitive or Reference:-
+  -Non-primitive data type are the type of data type that can hold multiple items in a single time .
+  -Non-primitive data types are -object,array,function.
+
+object:-
+  -object is a non-primitive data types which can hold multiple of item in one single entity.
+  -Mainly objects are working on (key;value)pair.
+  -The left side is our keys and right hand side are the values of following object.
+
+   ex-
+   deepak={
+   college :"GIET";
+   address :"BBSR";
+   age :50;
+   salary:45000;
+   carrier :"good"
+   }
+
+OPERATORS IN JS:-
+ -Operators are the key todo some of task or operate so,e task.
+ -ex=A+B
+ -In the above example A & B are the operands ,'+' is the operators to do the addition.
+
+  -ARITHMETIC OPERATORS:-
+   -(+,-,*,/)
+   modulus = %
+   Exponential = **
+   Increment = ++
+   Decrement = --
