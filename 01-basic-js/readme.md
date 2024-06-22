@@ -74,3 +74,61 @@ OPERATORS IN JS:-
    Exponential = **
    Increment = ++
    Decrement = --
+
+3.Assign operator:-(assign some value to the operator)
+(=, +=, -=, *-, **=)
+
+4.Comparision operator:-(compiler the values)
+-It gives the result true or false
+equal to -> ==
+not equal to -> !=
+equal to & type -> ===
+not equal to & type -> !==
+( >, >=, <, <= )
+
+5.Logical operator:-(check the logic of the operator (true or false))
+>Logical AND &&
+table of AND operator is:-
+cond 1 , cond 2 , rs(&&)
+T + T =T
+T + F =F
+F + T =F
+F + F =F
+
+>Logical OR ||
+table of OR operator is:-
+cond 1 , cond 2 , rs(||)
+T + T =T
+T + F =T
+F + T =T
+F + F =F
+
+Conditional statement:-
+-To implement condition in the code ,there  are 3 type of conditional statements are there-
+1.if condition -
+ -if condition is true then statement is true otherwise false.
+ syntax:- 
+ if(condition){
+  statement
+ }
+
+ 2.if-else condition
+  -if if condition is true then block execcuted its terminate to else condition .
+  syntax:-
+  if(condition){
+    statement
+  }
+  else{
+    statement
+  }
+
+  3. else-is condition :-
+   - It checks the condition multiple times where condition is true.
+   syantax :-
+   if(condition){
+      statements;
+   } else if(condtion){
+      statements;
+   } else{
+      statements; 
+   }
