@@ -122,7 +122,7 @@ Conditional statement:-
     statement
   }
 
-  3. else-is condition :-
+  3. else-if condition :-
    - It checks the condition multiple times where condition is true.
    syantax :-
    if(condition){
