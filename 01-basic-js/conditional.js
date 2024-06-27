@@ -46,10 +46,26 @@
 
 // console.log("according to your score , your grade is",grade)
 
-let age = 21;
+// let age = 21;
 
-if (age >=18 ){
-    console.log("i can apply for licence");
-} else {
-    console.log("i can not apply for licence");
+// if (age >=18 ){
+//     console.log("i can apply for licence");
+// } else {
+//     console.log("i can not apply for licence");
+// }
+
+// console.log("accrding to your score , your grade is ", grade)
+var fruit = "grapes";
+switch(fruit){
+    case "banana":
+        console.log("banana is  good")
+        break;
+    case "orange":
+    console.log("orange is good")
+    break;
+    case "apple":
+        console.log("apple is good")
+        break;
+        // default:
+            // console.log("all are bad")    
 }

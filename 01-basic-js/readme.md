@@ -132,3 +132,70 @@ Conditional statement:-
    } else{
       statements; 
    }
+
+   LOOPS:-
+
+   - loops are usedto execute a piece of code again and again.
+
+   1.FOR LOOP :-
+    syntax  - for (initialization ; condition ; updation){
+      statement
+    }
+
+    ex - for (let i =1; i<= 6; i++){
+      console.log("deepak)
+    }
+
+    2.WHILE LOOP:-
+    syntax -
+    while(condition){
+      statement
+      udation
+    }
+
+    3.do-while :-
+    sytax - 
+    do(
+      statement
+      udation
+    )while(condion);
+
+    4. for-of loop:-It iterate on string and array.
+
+    5.for-in loop:- It iterate over objects(key-value pair)
+    syntax -
+    for(let key in objvar){
+      statement
+    }
+
+Q.
+1.print all even no. between 1 to 100.
+2.create a game  you start with any random no. ,ask the user to guessing the  game no. untill the user enter correct number .
+
+STRING IN JS:-
+- String is sequence of character used to represent text.
+- Create a strig  -> let str = "web bocket"
+- string length ->str.length
+- string indexing -> str[0], str[1], str[2]......
+
+TEMPLETS LITERALS IN JS:-
+- A way to have embedded expression in string.
+-Its denoted on  ``. i.e `today is a greate day`
+
+STRING INTERPOLATION :-
+-To create strings by doing substitution on placeholders.
+- EX- `string text ${expression} string text`
+
+ESCAPE SYMBOL:-
+- \n - new line.
+- \t - tab inside the text.
+
+STRING METHODS:-
+- these are built in function to manupulate a string.
+1. str.toUpperCase()
+2. str.toLowerCase()
+3. str.trim()
+4. str.slice(start,end)
+5. str1.concat(str2)
+6. str.replace(searchval,newVal)
+7. str.chatat(idx)
