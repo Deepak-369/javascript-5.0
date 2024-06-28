@@ -64,11 +64,11 @@
 // }
 
 // Q.2-
-let no = 5;
-let userNum=prompt("enter the game number")
-if(userNum==no){
-    console.log("guessing number is correct")
-}
-else{
-    console.log("Guessing number is incorrect, Guess the another number")
-}
+// let no = 5;
+// let userNum=prompt("enter the game number")
+// if(userNum==no){
+//     console.log("guessing number is correct")
+// }
+// else{
+//     console.log("Guessing number is incorrect, Guess the another number")
+// }

@@ -25,7 +25,7 @@
 
 // let str = "Web Bocket";
 // let newstr = str.toUpperCase();
-// console.log(newstr)
+// console.log(str.toLowerCase())
 
 // let str = "Web Bocket";
 // let newstr = str.toLowerCase();

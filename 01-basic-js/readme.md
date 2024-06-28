@@ -199,3 +199,23 @@ STRING METHODS:-
 5. str1.concat(str2)
 6. str.replace(searchval,newVal)
 7. str.chatat(idx)
+
+ARRAYS IN JS:-
+collection of items-
+
+EX-
+
+let heros = ["ironman","thor","hulk","spiderman"];
+let marks = [46,28,58,63,95];
+let info = ["rahul","68",]
+- array index starting from 0 .
+EX- arr[0], arr[1],arr[2]....
+
+Loops over the array :-
+- print the below element in one by one 
+- let heros = ["ironman","thor","hulk","spiderman"];
+- we will  do it through loops.
+
+PRACTICE QUESTION:-
+Q1.For a given array with marks of students ->[85,97,44,37,76,60]. Find the average marks of the entire class.
+Q2.For a given array with prices of 5 items  ->[250,645,300,900,50].All items have an 10% off on them.Change the array to  store final price after applying offer.
